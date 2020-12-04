@@ -2,7 +2,7 @@
 
 The dataset used for the model training: https://doi.org/10.6084/m9.figshare.13295831
 
-The repository contains the code for preprocessing, training and evaluation of two models: 
+The repository contains the code for the data preprocessing, model fine-tuning and evaluation of two transformers adapted for the question answering task: 
 1. BERT based QA model
 2. GPT-2 based QA model
 
