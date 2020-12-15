@@ -9,3 +9,24 @@ The repository contains the code for the data preprocessing, model fine-tuning a
 The BERT based system implementation is based on Question Answering with SQuAD 2.0 guide: https://huggingface.co/transformers/custom_datasets.html?highlight=custom#qa-squad 
 
 The GPT-2 based system implementation is based on by gpt-2-simple package by Max Woolf: https://minimaxir.com/2019/09/howto-gpt2/
+
+## Results: 
+
+|Base model | F-Score |
+|-----------|---------|
+|Multilingual BERT | 0.55 |
+|774M GPT-2 | 0.63 |
+
+## Sample outputs:
+
+**BERT based model**
+
+**Q:** Есть ли какие-то техники, чтобы научить ребенка с РАС вести себя в социальном мире?
+
+**A:** Поговорите со специалистами, работающими с ребёнком, о каких-либо программах, которые могут ему помочь.
+
+**GPT-2 based model**
+
+**Q:** У детей-аутистов могут быть проблемы с одноклассниками?
+
+**A:** У детей с расстройством аутистического спектра (РАС) высок риск подвергнуться травле, особенно в обычных школах.
