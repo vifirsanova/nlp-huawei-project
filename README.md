@@ -10,14 +10,14 @@ The BERT based system implementation is based on Question Answering with SQuAD 2
 
 The GPT-2 based system implementation is based on by gpt-2-simple package by Max Woolf: https://minimaxir.com/2019/09/howto-gpt2/
 
-## Results: 
+## Results
 
 |Base model | F-Score |
 |-----------|---------|
 |Multilingual BERT | 0.55 |
 |774M GPT-2 | 0.63 |
 
-## Sample outputs:
+## Sample outputs
 
 **BERT based model**
 
